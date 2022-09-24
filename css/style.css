@@ -56,11 +56,15 @@ input.empty {
 }
 
 .middlearea {
-  height: 200px !important;
+ max-height: 200px !important;
 }
 
 .rightpanel {
   position:sticky;
   border:0;
   background-color: white;
+}
+
+.body{
+  background-color: rgb(255, 255, 255);
 }
